@@ -7,3 +7,4 @@ tail /etc/passwd:display last 10 lines
 head /etc/passwd:display the first ten lines
 head -n 3 iacta | tail -n 1:duplicates the last line
 echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)":creating a file
+ls -la >> ls_cwd_content:a script that writes into another
