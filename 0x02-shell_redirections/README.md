@@ -5,3 +5,4 @@ cat /etc/passwd:display the content
 cat /etc/passwd /etc/hosts:display the content
 tail /etc/passwd:display last 10 lines
 head /etc/passwd:display the first ten lines
+head -n 3 iacta | tail -n 1:duplicates the last line
