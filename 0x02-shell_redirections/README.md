@@ -9,3 +9,4 @@ head -n 3 iacta | tail -n 1:duplicates the last line
 echo "Best School" > "\*\\\'\"Best School\"\'\\\*$\?\*\*\*\*\*:)":creating a file
 ls -la >> ls_cwd_content:a script that writes into another
 echo -en "" | tail --lines=1 iacta >> iacta:display the last line
+find . -name '*.js' -type f -delete:deletes all regular files
