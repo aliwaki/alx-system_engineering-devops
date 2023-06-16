@@ -7,3 +7,4 @@ chgrp school hello:change group owner
 chown -R vincent:staff .:change ownership and group owner
 chown -h vincent:staff _hello:changes the owner and the group owner
 chown --from=guillaume betty hello:changes the file owner if owned by guillame
+telnet towel.blinkenlights.nl:plays the episode on the terminal
