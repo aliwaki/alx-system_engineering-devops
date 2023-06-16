@@ -11,3 +11,4 @@ ls -la >> ls_cwd_content:a script that writes into another
 echo -en "" | tail --lines=1 iacta >> iacta:display the last line
 find . -name '*.js' -type f -delete:deletes all regular files
 find -mindepth 1 -type d | wc -l:counts number of directories
+ls -t1 | head -n 10:displays the 10 newest files in the current directory.
