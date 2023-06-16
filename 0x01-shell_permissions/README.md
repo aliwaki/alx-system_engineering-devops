@@ -5,3 +5,4 @@ chmod -R ugo+X .:directory permission execute permission
 sudo mkdir -m 751 my_dir:make dir and execute permission 
 chgrp school hello:change group owner
 chown -R vincent:staff .:change ownership and group owner
+chown -h vincent:staff _hello:changes the owner and the group owner
