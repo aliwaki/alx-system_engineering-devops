@@ -17,3 +17,4 @@ grep root /etc/passwd:
 ×fU
 tr -d Cc:Create a script that removes all letters c and C from input
 rev:Write a script that reverse its input.
+cut -d ":" -f1,6 /etc/passwd | sort:Write a script that displays all users and their home directories, sorted by users.
