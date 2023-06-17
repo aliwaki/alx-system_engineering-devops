@@ -13,8 +13,5 @@ find . -name '*.js' -type f -delete:deletes all regular files
 find -mindepth 1 -type d | wc -l:counts number of directories
 ls -t1 | head -n 10:displays the 10 newest files in the current directory.
 sort | uniq -u:takes a list of words as input and prints only words that appear exactly once.
-grep root /etc/passwd:
-grep -A 3 root /etc/passwd:Display lines containing the pattern “root” and 3 lines after them in the file
-grep -v bin /etc/passwd:Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
-grep '^[A-Za-z]' /etc/ssh/sshd_config:Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+grep root /etc/passwd:N
 tr Ac Ze:Replace all characters A and c from input to Z and e respectively.
