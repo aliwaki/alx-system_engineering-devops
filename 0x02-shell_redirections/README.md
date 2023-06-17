@@ -16,3 +16,4 @@ sort | uniq -u:takes a list of words as input and prints only words that appear 
 grep root /etc/passwd:
 ×fU
 tr -d Cc:Create a script that removes all letters c and C from input
+rev:Write a script that reverse its input.
