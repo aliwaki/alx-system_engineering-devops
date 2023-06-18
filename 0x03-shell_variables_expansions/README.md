@@ -6,3 +6,4 @@ echo $PATH | tr ':' '\n' | wc -l:Create a script that counts the number of direc
 set:Create a script that lists all local variables and environment variables, and functions.
 printenv:Create a script that lists environment variables.
 BEST=School:Create a script that creates a new local variable.
+export BEST=School:reate a script that creates a new global variable.
