@@ -5,3 +5,4 @@ echo hello $USER:Create a script that prints hello user, where user is the curre
 echo $PATH | tr ':' '\n' | wc -l:Create a script that counts the number of directories in the PATH.
 set:Create a script that lists all local variables and environment variables, and functions.
 printenv:Create a script that lists environment variables.
+BEST=School:Create a script that creates a new local variable.
