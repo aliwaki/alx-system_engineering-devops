@@ -15,3 +15,4 @@ printf "%s\n" {a..z}{a..z} | grep -v "oo":Create a script that prints all possib
 printf "%.2f\n" $NUM:that prints a number with two decimal places, followed by a new line.
 printf "%x\n" $DECIMAL:t that converts a number from base 10 to base 16.
 tr 'A-Za-z' 'N-ZA-Mn-za-m' script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2hat prints every other line from the input, starting with the first line.
