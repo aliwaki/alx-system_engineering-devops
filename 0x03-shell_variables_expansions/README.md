@@ -13,3 +13,4 @@ echo $(($BREATH ** $LOVE)):Write a script that displays the result of BREATH to 
 echo "$((2#$BINARY))":Write a script that converts a number from base 2 to base 10.
 printf "%s\n" {a..z}{a..z} | grep -v "oo":Create a script that prints all possible combinations of two letters, except oo.
 printf "%.2f\n" $NUM:that prints a number with two decimal places, followed by a new line.
+printf "%x\n" $DECIMAL:t that converts a number from base 10 to base 16.
